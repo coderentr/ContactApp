@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contact.Domain.Core\Contact.Domain.Core.csproj" />
+    <ProjectReference Include="..\Contact.Infrastructure\Contact.Infrastructure.csproj" />
+    <ProjectReference Include="..\Contact.Shared\Contact.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

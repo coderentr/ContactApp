@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ContactService\Contact.Infrastructure\Contact.Infrastructure.csproj" />
+    <ProjectReference Include="..\Report.Domain.Core\Report.Domain.Core.csproj" />
+    <ProjectReference Include="..\Report.Infrastructure\Report.Infrastructure.csproj" />
+    <ProjectReference Include="..\Report.Shared\Report.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
